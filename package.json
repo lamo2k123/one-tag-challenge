@@ -1,0 +1,19 @@
+{
+  "name": "OTC",
+  "version": "0.0.1",
+  "devDependencies": {
+    "autoprefixer-core": "^5.2.1",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-postcss": "^5.1.9",
+    "gulp-rename": "^1.2.2",
+    "postcss-import": "^6.0.0",
+    "postcss-nested": "^0.3.2"
+  },
+  "scripts": {
+    "build": "gulp build:css && gulp build:jade",
+    "build:css": "gulp build:css",
+    "build:jade": "gulp build:jade",
+    "watch": "gulp"
+  }
+}

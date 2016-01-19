@@ -2,18 +2,24 @@
   "name": "OTC",
   "version": "0.0.1",
   "devDependencies": {
-    "autoprefixer-core": "^5.2.1",
-    "gulp": "^3.9.0",
-    "gulp-jade": "^1.0.1",
-    "gulp-postcss": "^5.1.9",
-    "gulp-rename": "^1.2.2",
-    "postcss-import": "^6.0.0",
-    "postcss-nested": "^0.3.2"
+    "babel-core": "6.4.0",
+    "babel-loader": "6.2.1",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "6.3.13",
+    "css-loader": "0.23.1",
+    "extract-text-webpack-plugin": "1.0.1",
+    "history": "1.17.0",
+    "html-webpack-plugin": "1.7.0",
+    "json-loader": "0.5.4",
+    "postcss-loader": "0.8.0",
+    "postcss-nested": "1.0.0",
+    "react": "0.14.6",
+    "react-dom": "0.14.6",
+    "react-router": "1.0.3",
+    "webpack": "1.12.11"
   },
   "scripts": {
-    "build": "gulp build:css && gulp build:jade",
-    "build:css": "gulp build:css",
-    "build:jade": "gulp build:jade",
-    "watch": "gulp"
+    "build": "webpack",
+    "watch": "webpack -w"
   }
 }
